@@ -1,2 +1,2 @@
-# JiangnanPsalter.guthub.io
+# JiangnanPsalter.github.io
 for_website
