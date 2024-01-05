@@ -9,9 +9,9 @@
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background: #2BC0E4;
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);
+	background: -webkit-linear-gradient(to right, #e60000, #2BC0E4);
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #EAECC6, #2BC0E4);
+	background: linear-gradient(to right, #e60000, #2BC0E4);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -24,21 +24,21 @@
 .layout_post>#post,
 .read-mode .layout_post>#post {
 	/* 以下代表透明度为0.5 */
-	background: rgba(255, 255, 255, .5);
+	background: rgba(233, 7, 7, 0.629);
 }
 
 /*侧边栏页面*/
 #aside-content>.card-widget {
-	background: rgba(255, 255, 255, .6);
+	background: rgba(251, 46, 46, 0.878);
 }
 
 #aside-content>.sticky_layout>.card-widget {
-	background: rgba(255, 255, 255, .6);
+	background: rgba(123, 6, 6, 0.999);
 }
 
 /*文章页面*/
 .layout>#post {
-	background: rgba(255, 255, 255, .6);
+	background: rgb(241, 33, 213);
 }
 
 /*分类页面*/
@@ -49,14 +49,14 @@
 
 /*时间轴页面*/
 .layout>#archive {
-	background: rgba(255, 255, 255, .6);
+	background: rgba(33, 7, 225, 0.938);
 }
 
 
 /*文章的整体背景*/
 #web_bg {
-	background-image: url("../img/bg.jpg"), 
-	linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), 
+	background-image: #e60000, 
+	linear-gradient(60deg, rgba(222, 34, 1, 0.825) 5%, rgba(0, 228, 255, 0.35)), 
 }
 
 
