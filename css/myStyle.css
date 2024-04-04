@@ -1,5 +1,5 @@
-/*文章的整体背景，渐变色设置*/
-#web_bg {
+/* 文章的整体背景，渐变色设置 */
+/* #web_bg {
 	background-image: linear-gradient(to top, #e60000 0%, #e60000 100%);
 	#background: #FFEFBA;
 	/* fallback for old browsers */
@@ -14,10 +14,10 @@
 	background: linear-gradient(to right, #e60000, #2BC0E4);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
+} */
 
 /* 主页所有文章页面背景 */
-#aside_content .card-widget,
+/* #aside_content .card-widget,
 #recent-posts>.recent-post-item,
 .layout_page>div:first-child:not(.recent-posts),
 .layout_post>#page,
@@ -25,27 +25,27 @@
 .read-mode .layout_post>#post {
 	/* 以下代表透明度为0.5 */
 	background: rgba(233, 7, 7, 0.629);
-}
+} */
 
 /*侧边栏页面*/
-#aside-content>.card-widget {
+/* #aside-content>.card-widget {
 	background: rgba(251, 46, 46, 0.878);
 }
 
 #aside-content>.sticky_layout>.card-widget {
 	background: rgba(123, 6, 6, 0.999);
-}
+} */
 
 /*文章页面*/
-.layout>#post {
+/* .layout>#post {
 	background: rgb(241, 33, 213);
-}
+} */
 
 /*分类页面*/
-.layout>#page {
+/* .layout>#page {
 
 	background: rgba(255, 255, 255, .6);
-}
+} */
 
 /*时间轴页面*/
 .layout>#archive {
@@ -54,10 +54,10 @@
 
 
 /*文章的整体背景*/
-#web_bg {
+/* #web_bg {
 	background-image: #e60000, 
 	linear-gradient(60deg, rgba(222, 34, 1, 0.825) 5%, rgba(0, 228, 255, 0.35)), 
-}
+} */
 
 
 
