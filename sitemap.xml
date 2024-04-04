@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jiangnanpsalter.com/categories/index.html</loc>
+    
+    <lastmod>2024-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangnanpsalter.com/tags/index.html</loc>
+    
+    <lastmod>2024-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangnanpsalter.com/2024/04/05/pages/</loc>
+    
+    <lastmod>2024-04-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jiangnanpsalter.com/link/index.html</loc>
     
     <lastmod>2024-04-04</lastmod>
@@ -239,14 +266,14 @@
 
   
   <url>
-    <loc>http://jiangnanpsalter.com/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E4%B8%8E%E5%8D%9A%E4%B8%BB/</loc>
+    <loc>http://jiangnanpsalter.com/categories/%E9%80%9A%E7%9F%A5%E4%B8%8E%E5%85%AC%E7%A4%BA/</loc>
     <lastmod>2024-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://jiangnanpsalter.com/categories/%E9%80%9A%E7%9F%A5%E4%B8%8E%E5%85%AC%E7%A4%BA/</loc>
+    <loc>http://jiangnanpsalter.com/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E4%B8%8E%E5%8D%9A%E4%B8%BB/</loc>
     <lastmod>2024-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
