@@ -6,7 +6,7 @@
   <link href="http://jiangnanpsalter.github.io/atom.xml" rel="self"/>
   
   <link href="http://jiangnanpsalter.github.io/"/>
-  <updated>2025-04-13T09:35:40.907Z</updated>
+  <updated>2025-04-13T15:13:19.158Z</updated>
   <id>http://jiangnanpsalter.github.io/</id>
   
   <author>
@@ -17,19 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo+butterfly使用数学公式katex</title>
+    <link href="http://jiangnanpsalter.github.io/2025/04/13/hexo+butterfly%E4%BD%BF%E7%94%A8%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8Fkatex/"/>
+    <id>http://jiangnanpsalter.github.io/2025/04/13/hexo+butterfly%E4%BD%BF%E7%94%A8%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8Fkatex/</id>
+    <published>2025-04-13T14:55:01.984Z</published>
+    <updated>2025-04-13T15:13:19.158Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="hexo-butterfly使用数学公式katex"><a href="#hexo-butterfly使用数学公式katex" class="headerlink" title="hexo+butterfly使用数学公式katex"></a>hexo+butterfly使用数学公式katex</h1><h2 id="1-更换插件"><a href="#1-更换插件" class="headerlink" title="1.更换插件"></a>1.更换插件</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm un hexo-renderer-marked --save # 卸载 marked 插件</span><br><span class="line">npm un hexo-renderer-kramed --save # 卸载 kramed 插件</span><br><span class="line">npm i hexo-renderer-markdown-it --save # 安装渲染插件</span><br><span class="line">npm install @neilsustc/markdown-it-katex --save # 安装katex插件</span><br></pre></td></tr></table></figure><h2 id="2-butterfly配置启动latex插件"><a href="#2-butterfly配置启动latex插件" class="headerlink" title="2.butterfly配置启动latex插件"></a>2.butterfly配置启动latex插件</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Math (數學)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># KaTeX</span></span><br><span class="line"><span class="attr">katex:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">hide_scrollbar:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h2 id="3-博客yml配置中增加"><a href="#3-博客yml配置中增加" class="headerlink" title="3.博客yml配置中增加"></a>3.博客yml配置中增加</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line"> <span class="attr">plugins:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="attr">plugin:</span></span><br><span class="line">     <span class="attr">name:</span> <span class="string">&#x27;@neilsustc/markdown-it-katex&#x27;</span></span><br><span class="line">     <span class="attr">options:</span></span><br><span class="line">       <span class="attr">strict:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><h2 id="4-博客页面配置开启latex"><a href="#4-博客页面配置开启latex" class="headerlink" title="4.博客页面配置开启latex"></a>4.博客页面配置开启latex</h2><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: bert详解</span><br><span class="line">date: 2025-04-13 14:51:21</span><br><span class="line">katex: true</span><br><span class="line">category:</span><br><span class="line"><span class="bullet">  -</span> ai</span><br><span class="line">tag:</span><br><span class="line"><span class="section">  - ai</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure><h2 id="5-letex语法如下："><a href="#5-letex语法如下：" class="headerlink" title="5.letex语法如下："></a>5.letex语法如下：</h2><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$concurrency = cost_\text&#123;avg&#125; \times qps \quad (1)$</span><br></pre></td></tr></table></figure><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;equation&#125;</span><br><span class="line">\mathcal&#123;F&#125; = \begin&#123;cases&#125;</span><br><span class="line">    \infty &amp; \text&#123;if &#125; \mathcal&#123;M&#125;_&#123;measure&#125; &lt; \alpha \times \mathcal&#123;M&#125;_&#123;expect&#125; \\</span><br><span class="line">    \mathcal&#123;M&#125;_\text&#123;expect&#125; / \mathcal&#123;M&#125;_\text&#123;measure&#125; &amp; \text&#123;if &#125; \alpha \times \mathcal&#123;M&#125;_&#123;expect&#125; &lt; \mathcal&#123;M&#125;_&#123;measure&#125; &lt; \mathcal&#123;M&#125;_&#123;expect&#125; \\</span><br><span class="line">    \sqrt&#123;\frac&#123;\mathcal&#123;M&#125;_&#123;expect&#125;&#125;&#123;\mathcal&#123;M&#125;_&#123;measure&#125;&#125;&#125; &amp; \text&#123;if &#125; \mathcal&#123;M&#125;_&#123;measure&#125; \ge \mathcal&#123;M&#125;_&#123;expect&#125;</span><br><span class="line">\end&#123;cases&#125;</span><br><span class="line">\end&#123;equation&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;hexo-butterfly使用数学公式katex&quot;&gt;&lt;a href=&quot;#hexo-butterfly使用数学公式katex&quot; class=&quot;headerlink&quot; title=&quot;hexo+butterfly使用数学公式katex&quot;&gt;&lt;/a&gt;hexo+butter</summary>
+      
+    
+    
+    
+    <category term="关于本站、博客搭建" scheme="http://jiangnanpsalter.github.io/categories/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="Hexo" scheme="http://jiangnanpsalter.github.io/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://jiangnanpsalter.github.io/tags/Butterfly/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【段子】千禧年难题奶茶化</title>
     <link href="http://jiangnanpsalter.github.io/2025/04/13/[%E6%AE%B5%E5%AD%90]%E5%8D%83%E7%A6%A7%E5%B9%B4%E9%9A%BE%E9%A2%98%E5%A5%B6%E8%8C%B6%E5%8C%96/"/>
     <id>http://jiangnanpsalter.github.io/2025/04/13/[%E6%AE%B5%E5%AD%90]%E5%8D%83%E7%A6%A7%E5%B9%B4%E9%9A%BE%E9%A2%98%E5%A5%B6%E8%8C%B6%E5%8C%96/</id>
     <published>2025-04-13T09:26:57.809Z</published>
-    <updated>2025-04-13T09:35:40.907Z</updated>
+    <updated>2025-04-13T14:38:39.165Z</updated>
     
-    <content type="html"><![CDATA[<p>潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">第八难题：奶茶最优搅拌定理  </span><br><span class="line">设珍珠体积为V，奶茶密度ρ，吸管半径r，则存在唯一搅拌次数n，使得  </span><br><span class="line">n = ⌈(<span class="number">3</span>Vρ)/(π r²)⌉ + ϵ  </span><br><span class="line">其中ϵ为口味偏好修正项（ϵ∈&#123;<span class="number">0</span>,<span class="number">1</span>&#125;）  </span><br><span class="line">悬赏：终身奶茶免单权</span><br></pre></td></tr></table></figure><p>此刻全球数学家突然集体转向奶茶店，黎曼猜想的证明进度因此延缓13.7%！</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="【段子】千禧年难题奶茶化"><a href="#【段子】千禧年难题奶茶化" class="headerlink" title="【段子】千禧年难题奶茶化"></a>【段子】千禧年难题奶茶化</h1><h4 id="潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草："><a href="#潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草：" class="headerlink" title="潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草："></a>潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草：</h4><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">第八难题：奶茶最优搅拌定理  </span><br><span class="line">设珍珠体积为V，奶茶密度ρ，吸管半径r，则存在唯一搅拌次数n，使得  </span><br><span class="line">n = ⌈(3Vρ)/(π r²)⌉ + ϵ  </span><br><span class="line">其中ϵ为口味偏好修正项（ϵ∈&#123;0,1&#125;）  </span><br><span class="line">悬赏：终身奶茶免单权</span><br></pre></td></tr></table></figure><h4 id="此刻全球数学家突然集体转向奶茶店，黎曼猜想的证明进度因此延缓13-7-！"><a href="#此刻全球数学家突然集体转向奶茶店，黎曼猜想的证明进度因此延缓13-7-！" class="headerlink" title="此刻全球数学家突然集体转向奶茶店，黎曼猜想的证明进度因此延缓13.7%！"></a>此刻全球数学家突然集体转向奶茶店，黎曼猜想的证明进度因此延缓13.7%！</h4>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草：&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;spa</summary>
+    <summary type="html">&lt;h1 id=&quot;【段子】千禧年难题奶茶化&quot;&gt;&lt;a href=&quot;#【段子】千禧年难题奶茶化&quot; class=&quot;headerlink&quot; title=&quot;【段子】千禧年难题奶茶化&quot;&gt;&lt;/a&gt;【段子】千禧年难题奶茶化&lt;/h1&gt;&lt;h4 id=&quot;潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》</summary>
       
     
     
@@ -40,18 +65,19 @@
   </entry>
   
   <entry>
-    <title>【段子】千禧年难题奶茶化</title>
-    <link href="http://jiangnanpsalter.github.io/2025/04/13/%E5%8F%B0%E7%90%83%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%9D%8E%E7%BE%A4%E4%BD%9C%E7%94%A8/"/>
-    <id>http://jiangnanpsalter.github.io/2025/04/13/%E5%8F%B0%E7%90%83%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%9D%8E%E7%BE%A4%E4%BD%9C%E7%94%A8/</id>
-    <published>2025-04-13T09:25:41.302Z</published>
-    <updated>2025-04-13T09:35:37.490Z</updated>
+    <title>台球动力学中的李群作用</title>
+    <link href="http://jiangnanpsalter.github.io/2025/04/12/%E5%8F%B0%E7%90%83%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%9D%8E%E7%BE%A4%E4%BD%9C%E7%94%A8/"/>
+    <id>http://jiangnanpsalter.github.io/2025/04/12/%E5%8F%B0%E7%90%83%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%9D%8E%E7%BE%A4%E4%BD%9C%E7%94%A8/</id>
+    <published>2025-04-12T06:51:21.000Z</published>
+    <updated>2025-04-13T14:54:44.199Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="台球动力学中的李群作用"><a href="#台球动力学中的李群作用" class="headerlink" title="台球动力学中的李群作用"></a>台球动力学中的李群作用</h1><p>摘要： 本文旨在探讨台球运动中的动力学问题，并通过李群理论对其进行数学建模和分析。通过引入李群作用，我们能够更好地理解台球碰撞、旋转和移动等复杂运动现象。本文首先介绍了台球运动的基本模型，然后详细讨论了李群及其在台球动力学中的应用，最后通过实例分析验证了理论的有效性。   </p><ol><li>引言</li></ol><p> <br>台球是一项技巧性极高的运动，其运动过程涉及碰撞、摩擦、旋转和移动等多种物理现象。传统的分析方法往往难以全面描述这些复杂的运动过程。本文尝试引入李群理论，通过数学建模和分析，揭示台球运动的内在规律。<br>李群是一种具有光滑结构的群，广泛应用于物理学和工程学中。在台球动力学中，李群可以用于描述台球的旋转、平移以及碰撞前后的状态变化。通过李群作用，我们可以更精确地模拟和分析台球的运动轨迹和碰撞效果。<br> <br> <br> <br>2. 台球运动的基本模型<br> <br>2.1 碰撞模型<br> <br>台球碰撞是台球运动中最基本的物理现象之一。碰撞过程可以通过动量守恒和能量守恒定律进行描述。假设两个台球的质量分别为 ( m_1 ) 和 ( m_2 )，碰撞前的速度分别为 ( \mathbf{v}_1 ) 和 ( \mathbf{v}_2 )，碰撞后的速度分别为 ( \mathbf{v}_1’ ) 和 ( \mathbf{v}_2’ )。根据动量守恒和能量守恒，我们有：<br>[ m_1 \mathbf{v}_1 + m_2 \mathbf{v}_2 &#x3D; m_1 \mathbf{v}_1’ + m_2 \mathbf{v}_2’ ]<br>[ \frac{1}{2} m_1 \mathbf{v}_1^2 + \frac{1}{2} m_2 \mathbf{v}_2^2 &#x3D; \frac{1}{2} m_1 \mathbf{v}_1’^2 + \frac{1}{2} m_2 \mathbf{v}_2’^2 ]<br> <br>2.2 旋转模型<br> <br>台球的旋转运动可以通过角动量守恒定律进行描述。假设台球的转动惯量为 ( I )，角速度为 ( \boldsymbol{\omega} )，则角动量为 ( \mathbf{L} &#x3D; I \boldsymbol{\omega} )。在碰撞过程中，角动量守恒：<br>[ I \boldsymbol{\omega} &#x3D; I \boldsymbol{\omega}’ ]<br> <br> <br> <br>3. 李群及其在台球动力学中的应用<br> <br>3.1 李群简介<br> <br>李群是一种具有光滑结构的群，常用于描述连续变换。在台球动力学中，李群可以用于描述台球的旋转、平移以及碰撞前后的状态变化。常见的李群包括 ( SO(3) )（三维旋转群）和 ( SE(3) )（三维欧几里得群）。<br> <br>3.2 李群作用<br> <br>李群作用是指李群对某个空间的作用。在台球动力学中，李群作用可以用于描述台球的旋转和平移。例如，( SE(3) ) 群可以用于描述台球在三维空间中的位置和姿态变化。<br> <br>3.3 碰撞前后的状态变化<br> <br>通过李群作用，我们可以描述台球碰撞前后的状态变化。假设碰撞前的状态为 ( g_1 )，碰撞后的状态为 ( g_2 )，则碰撞过程可以通过李群作用表示为：<br>[ g_2 &#x3D; g_1 \cdot h ]<br>其中 ( h ) 为碰撞引起的变换。<br> <br> <br> <br>4. 实例分析<br> <br>4.1 碰撞模拟<br> <br>我们通过一个简单的实例来验证李群作用在台球碰撞中的应用。假设一个台球以速度 ( \mathbf{v} ) 碰撞到台球桌的边缘，经过碰撞后速度变为 ( \mathbf{v}’ )。通过李群作用，我们可以计算出碰撞后的速度方向和大小。</p><p><img src="/img/taiqiuyujihe.jpg"></p><p>4.2 旋转与平移<br> <br>另一个实例是台球的旋转与平移。通过李群作用，我们可以模拟台球在碰撞前后的旋转和平移运动，验证角动量守恒和动量守恒。<br> <br> <br> <br>5. 结论<br> <br>本文通过引入李群理论，对台球动力学进行了数学建模和分析。李群作用不仅能够描述台球的碰撞、旋转和移动等复杂运动现象，还能通过数学方法进行精确计算和模拟。通过实例分析，我们验证了李群理论在台球动力学中的有效性。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="台球动力学中的李群作用"><a href="#台球动力学中的李群作用" class="headerlink" title="台球动力学中的李群作用"></a>台球动力学中的李群作用</h1><blockquote><p>摘要： 本文旨在探讨台球运动中的动力学问题，并通过李群理论对其进行数学建模和分析。通过引入李群作用，我们能够更好地理解台球碰撞、旋转和移动等复杂运动现象。本文首先介绍了台球运动的基本模型，然后详细讨论了李群及其在台球动力学中的应用，最后通过实例分析验证了理论的有效性。 </p></blockquote><h2 id="1-引言"><a href="#1-引言" class="headerlink" title="1.引言"></a>1.引言</h2><p> <br>台球是一项技巧性极高的运动，其运动过程涉及碰撞、摩擦、旋转和移动等多种物理现象。传统的分析方法往往难以全面描述这些复杂的运动过程。本文尝试引入李群理论，通过数学建模和分析，揭示台球运动的内在规律。</p><p>李群是一种具有光滑结构的群，广泛应用于物理学和工程学中。在台球动力学中，李群可以用于描述台球的旋转、平移以及碰撞前后的状态变化。通过李群作用，我们可以更精确地模拟和分析台球的运动轨迹和碰撞效果。 </p><h2 id="2-台球运动的基本模型"><a href="#2-台球运动的基本模型" class="headerlink" title="2.台球运动的基本模型"></a>2.台球运动的基本模型</h2><p> </p><h3 id="2-1-碰撞模型"><a href="#2-1-碰撞模型" class="headerlink" title="2.1 碰撞模型"></a>2.1 碰撞模型</h3><p> <br>台球碰撞是台球运动中最基本的物理现象之一。碰撞过程可以通过动量守恒和能量守恒定律进行描述。假设两个台球的质量分别为 ($ m_1 $) 和 ($ m_2 $)，碰撞前的速度分别为 ($ \mathbf{v}_1 $) 和 ($ \mathbf{v}_2 $)，碰撞后的速度分别为 ($ \mathbf{v}_1’ $) 和 ($ \mathbf{v}_2’ $)。根据动量守恒和能量守恒，我们有：</p><p>$$<br>m_1 \mathbf{v}_1 + m_2 \mathbf{v}_2 &#x3D; m_1 \mathbf{v}_1’ + m_2 \mathbf{v}_2’<br>$$</p><p>$$<br>\frac{1}{2} m_1 \mathbf{v}_1^2 + \frac{1}{2} m_2 \mathbf{v}_2^2 &#x3D; \frac{1}{2} m_1 \mathbf{v}_1’^2 + \frac{1}{2} m_2 \mathbf{v}_2’^2<br>$$ </p><h3 id="2-2-旋转模型"><a href="#2-2-旋转模型" class="headerlink" title="2.2 旋转模型"></a>2.2 旋转模型</h3><p> <br>台球的旋转运动可以通过角动量守恒定律进行描述。假设台球的转动惯量为 ($ I $)，角速度为 ($ \boldsymbol{\omega} $)，则角动量为 ($ \mathbf{L} &#x3D; I \boldsymbol{\omega} $)。在碰撞过程中，角动量守恒：<br> <br>$$<br>I \boldsymbol{\omega} &#x3D; I \boldsymbol{\omega}’<br>$$ </p><h2 id="3-李群及其在台球动力学中的应用"><a href="#3-李群及其在台球动力学中的应用" class="headerlink" title="3.李群及其在台球动力学中的应用"></a>3.李群及其在台球动力学中的应用</h2><p> </p><h3 id="3-1-李群简介"><a href="#3-1-李群简介" class="headerlink" title="3.1 李群简介"></a>3.1 李群简介</h3><p> <br>李群是一种具有光滑结构的群，常用于描述连续变换。在台球动力学中，李群可以用于描述台球的旋转、平移以及碰撞前后的状态变化。常见的李群包括 ($ SO(3) $)（三维旋转群）和 ($ SE(3) $)（三维欧几里得群）。 </p><h3 id="3-2-李群作用"><a href="#3-2-李群作用" class="headerlink" title="3.2 李群作用"></a>3.2 李群作用</h3><p> <br>李群作用是指李群对某个空间的作用。在台球动力学中，李群作用可以用于描述台球的旋转和平移。例如，($ SE(3) $) 群可以用于描述台球在三维空间中的位置和姿态变化。 </p><h3 id="3-3-碰撞前后的状态变化"><a href="#3-3-碰撞前后的状态变化" class="headerlink" title="3.3 碰撞前后的状态变化"></a>3.3 碰撞前后的状态变化</h3><p> <br>通过李群作用，我们可以描述台球碰撞前后的状态变化。假设碰撞前的状态为 ($ g_1 $)，碰撞后的状态为 ($ g_2 $)，则碰撞过程可以通过李群作用表示为：</p><p>$$<br>g_2 &#x3D; g_1 \cdot h<br>$$</p><p>其中 ($ h $) 为碰撞引起的变换。 </p><h2 id="4-实例分析"><a href="#4-实例分析" class="headerlink" title="4.实例分析"></a>4.实例分析</h2><h3 id="4-1-碰撞模拟"><a href="#4-1-碰撞模拟" class="headerlink" title="4.1 碰撞模拟"></a>4.1 碰撞模拟</h3><p> <br>我们通过一个简单的实例（$ 如图1所示 $）来验证李群作用在台球碰撞中的应用。假设一个台球以速度 ($ \mathbf{v} $) 碰撞到台球桌的边缘，经过碰撞后速度变为 ($ \mathbf{v}’ $)。通过李群作用，我们可以计算出碰撞后的速度方向和大小。</p><p><img src="/img/taiqiuyujihe.jpg"><br>$$ 图1 $$</p><h3 id="4-2-旋转与平移"><a href="#4-2-旋转与平移" class="headerlink" title="4.2 旋转与平移"></a>4.2 旋转与平移</h3><p> <br>另一个实例是台球的旋转与平移。通过李群作用，我们可以模拟台球在碰撞前后的旋转和平移运动，验证角动量守恒和动量守恒。 </p><h2 id="5-结论"><a href="#5-结论" class="headerlink" title="5.结论"></a>5.结论</h2><p> <br>通过引入李群理论，对台球动力学进行了数学建模和分析。李群作用不仅能够描述台球的碰撞、旋转和移动等复杂运动现象，还能通过数学方法进行精确计算和模拟。通过实例分析，验证了李群理论在台球动力学中的有效性。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;台球动力学中的李群作用&quot;&gt;&lt;a href=&quot;#台球动力学中的李群作用&quot; class=&quot;headerlink&quot; title=&quot;台球动力学中的李群作用&quot;&gt;&lt;/a&gt;台球动力学中的李群作用&lt;/h1&gt;&lt;p&gt;摘要： 本文旨在探讨台球运动中的动力学问题，并通过李群理论对其进行数</summary>
+    <summary type="html">&lt;h1 id=&quot;台球动力学中的李群作用&quot;&gt;&lt;a href=&quot;#台球动力学中的李群作用&quot; class=&quot;headerlink&quot; title=&quot;台球动力学中的李群作用&quot;&gt;&lt;/a&gt;台球动力学中的李群作用&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;摘要： 本文旨在探讨台球运动中的动力学问题</summary>
       
     
     
@@ -473,28 +499,6 @@
     
     
     <category term="博主的观点和态度" scheme="http://jiangnanpsalter.github.io/categories/%E5%8D%9A%E4%B8%BB%E7%9A%84%E8%A7%82%E7%82%B9%E5%92%8C%E6%80%81%E5%BA%A6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Quotes on Attitudes</title>
-    <link href="http://jiangnanpsalter.github.io/2024/01/30/Quotes%20on%20Attitudes/"/>
-    <id>http://jiangnanpsalter.github.io/2024/01/30/Quotes%20on%20Attitudes/</id>
-    <published>2024-01-30T07:20:41.999Z</published>
-    <updated>2024-04-04T16:49:35.032Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Quotes-on-Attitudes"><a href="#Quotes-on-Attitudes" class="headerlink" title="Quotes on Attitudes"></a>Quotes on Attitudes</h1><blockquote><p>本文来源：<a href="https://seagull.baicizhan.com/react_reading/reading/article/2921?buid=2124144499&recording=null&timestamp=1706599359000">https://seagull.baicizhan.com/react_reading/reading/article/2921?buid=2124144499&amp;recording=null&amp;timestamp=1706599359000</a></p></blockquote><p>There is only one heroism in the world: to see the world as it is, and to love it.<br>—Roman Roland<br>世上唯有一种英雄主义：在认清世界真相后，依然热爱世界。</p><p>——罗曼·罗兰</p><p>To love oneself is the beginning of a lifelong romance.<br>—Oscar Wilde<br>爱自己是终生浪漫的开始。</p><p>——奥斯卡·王尔德</p><p>Happiness, not in another place but this place…not for another hour, but this hour.<br>―Walt Whitman<br>幸福，不在别处，而在此处……不在彼时，而在此时。</p><p>——沃尔特·惠特曼</p><p>Attitude is a choice. Happiness is a choice. Optimism is a choice. Kindness is a choice. Giving is a choice. Respect is a choice. Whatever choice you make makes you. Choose wisely.<br>态度是一种选择。幸福是一种选择。乐观是一种选择。仁慈是一种选择。给予是一种选择。尊重是一种选择。你做的所有选择塑造着你。所以要做明智之选。</p><p>The age of a woman is not important: you can be wonderful in your 20’s, amazing in your 40’s and stay fabulous for the rest of your life.<br>—Coco Chanel<br>女人的年龄并不重要：你可以在20多岁时变得优秀，在40多岁时变得出色，在余生保持光彩耀人。</p><p>——可可·香奈儿</p><p><img src="/img/chosse_wisely.jpg"></p><p>Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.<br>―Mother Teresa<br>昨日已逝，明日未到，我们只有今日，让我们从现在开始吧！</p><p>——特蕾莎修女</p><p>Forgiveness is the fragrance that the violet sheds on the heel that has crushed it.<br>―Mark Twain<br>紫罗兰把香气留在了踩踏它的脚跟上，这就是宽恕。</p><p>——马克·吐温</p><p>The smile on my face doesn’t mean my life is perfect. It just means I appreciate everything I have.<br>我脸上的笑容并不意味着我拥有完美生活。而只意味着我感激我所拥有的一切。</p><p>Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.<br>–Martin Luther King, Jr<br>黑暗不能驱逐黑暗，惟有光明可以；仇恨不能驱逐仇恨，惟有爱才可以。</p><p>——马丁·路德·金</p><p>If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.<br>–Oprah Winfrey<br>如果你珍视生命中所拥有的，你会发现你已经拥有得够多；如果你执着于生命中未曾拥有的，你就算拥有再多也总是不够。</p><p>——奥普拉·温弗瑞</p><p>Life is like a camera. Just focus on what’s important, capture the good times, develop from the negatives, and if things don’t work out, just take another shot.<br>人生就像一台相机：聚焦重要事情，捕捉美好时光，在负面经历中成长，若结果不尽人意，那就再拍一次吧。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Quotes-on-Attitudes&quot;&gt;&lt;a href=&quot;#Quotes-on-Attitudes&quot; class=&quot;headerlink&quot; title=&quot;Quotes on Attitudes&quot;&gt;&lt;/a&gt;Quotes on Attitudes&lt;/h1&gt;&lt;bloc</summary>
-      
-    
-    
-    
-    <category term="哲学、文学与艺术" scheme="http://jiangnanpsalter.github.io/categories/%E5%93%B2%E5%AD%A6%E3%80%81%E6%96%87%E5%AD%A6%E4%B8%8E%E8%89%BA%E6%9C%AF/"/>
     
     
   </entry>
