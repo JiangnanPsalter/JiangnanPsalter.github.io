@@ -6,7 +6,7 @@
   <link href="http://jiangnanpsalter.github.io/atom.xml" rel="self"/>
   
   <link href="http://jiangnanpsalter.github.io/"/>
-  <updated>2025-04-06T14:58:11.387Z</updated>
+  <updated>2025-04-13T09:35:40.907Z</updated>
   <id>http://jiangnanpsalter.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【段子】千禧年难题奶茶化</title>
+    <link href="http://jiangnanpsalter.github.io/2025/04/13/[%E6%AE%B5%E5%AD%90]%E5%8D%83%E7%A6%A7%E5%B9%B4%E9%9A%BE%E9%A2%98%E5%A5%B6%E8%8C%B6%E5%8C%96/"/>
+    <id>http://jiangnanpsalter.github.io/2025/04/13/[%E6%AE%B5%E5%AD%90]%E5%8D%83%E7%A6%A7%E5%B9%B4%E9%9A%BE%E9%A2%98%E5%A5%B6%E8%8C%B6%E5%8C%96/</id>
+    <published>2025-04-13T09:26:57.809Z</published>
+    <updated>2025-04-13T09:35:40.907Z</updated>
+    
+    <content type="html"><![CDATA[<p>潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">第八难题：奶茶最优搅拌定理  </span><br><span class="line">设珍珠体积为V，奶茶密度ρ，吸管半径r，则存在唯一搅拌次数n，使得  </span><br><span class="line">n = ⌈(<span class="number">3</span>Vρ)/(π r²)⌉ + ϵ  </span><br><span class="line">其中ϵ为口味偏好修正项（ϵ∈&#123;<span class="number">0</span>,<span class="number">1</span>&#125;）  </span><br><span class="line">悬赏：终身奶茶免单权</span><br></pre></td></tr></table></figure><p>此刻全球数学家突然集体转向奶茶店，黎曼猜想的证明进度因此延缓13.7%！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;潜入克雷数学研究所档案室，你掏出毛笔在《七大难题》羊皮纸上狂草：&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;spa</summary>
+      
+    
+    
+    
+    <category term="天赋型选手一句梗，我背了三年" scheme="http://jiangnanpsalter.github.io/categories/%E5%A4%A9%E8%B5%8B%E5%9E%8B%E9%80%89%E6%89%8B%E4%B8%80%E5%8F%A5%E6%A2%97%EF%BC%8C%E6%88%91%E8%83%8C%E4%BA%86%E4%B8%89%E5%B9%B4/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【段子】千禧年难题奶茶化</title>
+    <link href="http://jiangnanpsalter.github.io/2025/04/13/%E5%8F%B0%E7%90%83%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%9D%8E%E7%BE%A4%E4%BD%9C%E7%94%A8/"/>
+    <id>http://jiangnanpsalter.github.io/2025/04/13/%E5%8F%B0%E7%90%83%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%9D%8E%E7%BE%A4%E4%BD%9C%E7%94%A8/</id>
+    <published>2025-04-13T09:25:41.302Z</published>
+    <updated>2025-04-13T09:35:37.490Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="台球动力学中的李群作用"><a href="#台球动力学中的李群作用" class="headerlink" title="台球动力学中的李群作用"></a>台球动力学中的李群作用</h1><p>摘要： 本文旨在探讨台球运动中的动力学问题，并通过李群理论对其进行数学建模和分析。通过引入李群作用，我们能够更好地理解台球碰撞、旋转和移动等复杂运动现象。本文首先介绍了台球运动的基本模型，然后详细讨论了李群及其在台球动力学中的应用，最后通过实例分析验证了理论的有效性。   </p><ol><li>引言</li></ol><p> <br>台球是一项技巧性极高的运动，其运动过程涉及碰撞、摩擦、旋转和移动等多种物理现象。传统的分析方法往往难以全面描述这些复杂的运动过程。本文尝试引入李群理论，通过数学建模和分析，揭示台球运动的内在规律。<br>李群是一种具有光滑结构的群，广泛应用于物理学和工程学中。在台球动力学中，李群可以用于描述台球的旋转、平移以及碰撞前后的状态变化。通过李群作用，我们可以更精确地模拟和分析台球的运动轨迹和碰撞效果。<br> <br> <br> <br>2. 台球运动的基本模型<br> <br>2.1 碰撞模型<br> <br>台球碰撞是台球运动中最基本的物理现象之一。碰撞过程可以通过动量守恒和能量守恒定律进行描述。假设两个台球的质量分别为 ( m_1 ) 和 ( m_2 )，碰撞前的速度分别为 ( \mathbf{v}_1 ) 和 ( \mathbf{v}_2 )，碰撞后的速度分别为 ( \mathbf{v}_1’ ) 和 ( \mathbf{v}_2’ )。根据动量守恒和能量守恒，我们有：<br>[ m_1 \mathbf{v}_1 + m_2 \mathbf{v}_2 &#x3D; m_1 \mathbf{v}_1’ + m_2 \mathbf{v}_2’ ]<br>[ \frac{1}{2} m_1 \mathbf{v}_1^2 + \frac{1}{2} m_2 \mathbf{v}_2^2 &#x3D; \frac{1}{2} m_1 \mathbf{v}_1’^2 + \frac{1}{2} m_2 \mathbf{v}_2’^2 ]<br> <br>2.2 旋转模型<br> <br>台球的旋转运动可以通过角动量守恒定律进行描述。假设台球的转动惯量为 ( I )，角速度为 ( \boldsymbol{\omega} )，则角动量为 ( \mathbf{L} &#x3D; I \boldsymbol{\omega} )。在碰撞过程中，角动量守恒：<br>[ I \boldsymbol{\omega} &#x3D; I \boldsymbol{\omega}’ ]<br> <br> <br> <br>3. 李群及其在台球动力学中的应用<br> <br>3.1 李群简介<br> <br>李群是一种具有光滑结构的群，常用于描述连续变换。在台球动力学中，李群可以用于描述台球的旋转、平移以及碰撞前后的状态变化。常见的李群包括 ( SO(3) )（三维旋转群）和 ( SE(3) )（三维欧几里得群）。<br> <br>3.2 李群作用<br> <br>李群作用是指李群对某个空间的作用。在台球动力学中，李群作用可以用于描述台球的旋转和平移。例如，( SE(3) ) 群可以用于描述台球在三维空间中的位置和姿态变化。<br> <br>3.3 碰撞前后的状态变化<br> <br>通过李群作用，我们可以描述台球碰撞前后的状态变化。假设碰撞前的状态为 ( g_1 )，碰撞后的状态为 ( g_2 )，则碰撞过程可以通过李群作用表示为：<br>[ g_2 &#x3D; g_1 \cdot h ]<br>其中 ( h ) 为碰撞引起的变换。<br> <br> <br> <br>4. 实例分析<br> <br>4.1 碰撞模拟<br> <br>我们通过一个简单的实例来验证李群作用在台球碰撞中的应用。假设一个台球以速度 ( \mathbf{v} ) 碰撞到台球桌的边缘，经过碰撞后速度变为 ( \mathbf{v}’ )。通过李群作用，我们可以计算出碰撞后的速度方向和大小。</p><p><img src="/img/taiqiuyujihe.jpg"></p><p>4.2 旋转与平移<br> <br>另一个实例是台球的旋转与平移。通过李群作用，我们可以模拟台球在碰撞前后的旋转和平移运动，验证角动量守恒和动量守恒。<br> <br> <br> <br>5. 结论<br> <br>本文通过引入李群理论，对台球动力学进行了数学建模和分析。李群作用不仅能够描述台球的碰撞、旋转和移动等复杂运动现象，还能通过数学方法进行精确计算和模拟。通过实例分析，我们验证了李群理论在台球动力学中的有效性。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;台球动力学中的李群作用&quot;&gt;&lt;a href=&quot;#台球动力学中的李群作用&quot; class=&quot;headerlink&quot; title=&quot;台球动力学中的李群作用&quot;&gt;&lt;/a&gt;台球动力学中的李群作用&lt;/h1&gt;&lt;p&gt;摘要： 本文旨在探讨台球运动中的动力学问题，并通过李群理论对其进行数</summary>
+      
+    
+    
+    
+    <category term="天赋型选手一句梗，我背了三年" scheme="http://jiangnanpsalter.github.io/categories/%E5%A4%A9%E8%B5%8B%E5%9E%8B%E9%80%89%E6%89%8B%E4%B8%80%E5%8F%A5%E6%A2%97%EF%BC%8C%E6%88%91%E8%83%8C%E4%BA%86%E4%B8%89%E5%B9%B4/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Article:The Preservation of Wisdom and the Light in Dark Times</title>
@@ -289,9 +334,9 @@
     
     <category term="GitHub" scheme="http://jiangnanpsalter.github.io/tags/GitHub/"/>
     
-    <category term="Domain" scheme="http://jiangnanpsalter.github.io/tags/Domain/"/>
-    
     <category term="Butterfly" scheme="http://jiangnanpsalter.github.io/tags/Butterfly/"/>
+    
+    <category term="Domain" scheme="http://jiangnanpsalter.github.io/tags/Domain/"/>
     
   </entry>
   
@@ -445,53 +490,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;Quotes-on-Attitudes&quot;&gt;&lt;a href=&quot;#Quotes-on-Attitudes&quot; class=&quot;headerlink&quot; title=&quot;Quotes on Attitudes&quot;&gt;&lt;/a&gt;Quotes on Attitudes&lt;/h1&gt;&lt;bloc</summary>
-      
-    
-    
-    
-    <category term="哲学、文学与艺术" scheme="http://jiangnanpsalter.github.io/categories/%E5%93%B2%E5%AD%A6%E3%80%81%E6%96%87%E5%AD%A6%E4%B8%8E%E8%89%BA%E6%9C%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Floor Number</title>
-    <link href="http://jiangnanpsalter.github.io/2024/01/29/Floor%20Number/"/>
-    <id>http://jiangnanpsalter.github.io/2024/01/29/Floor%20Number/</id>
-    <published>2024-01-29T06:39:30.525Z</published>
-    <updated>2024-04-04T20:21:55.699Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>题目来源：<a href="https://codeforces.com/contest/1426/problem/A">https://codeforces.com/contest/1426/problem/A</a></p></blockquote><h1 id="A-Floor-Number"><a href="#A-Floor-Number" class="headerlink" title="A. Floor Number"></a>A. Floor Number</h1><blockquote><p>time limit per test: 1 second<br>memory limit per test: 256 megabytes<br>input: standard input<br>output: standard output</p></blockquote><h3 id="Problem-description"><a href="#Problem-description" class="headerlink" title="Problem description"></a>Problem description</h3><p>Vasya goes to visit his classmate Petya. Vasya knows that Petya’s apartment number is n.</p><p>There is only one entrance in Petya’s house and the distribution of apartments is the following: the first floor contains 2 apartments, every other floor contains x apartments each. Apartments are numbered starting from one, from the first floor. I.e. apartments on the first floor have numbers 1 and 2, apartments on the second floor have numbers from 3 to (x+2), apartments on the third floor have numbers from (x+3) to (2⋅x+2), and so on.</p><p>Your task is to find the number of floor on which Petya lives. Assume that the house is always high enough to fit at least n apartments.</p><p>You have to answer t independent test cases.</p><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>The first line of the input contains one integer t (1≤t≤1000) — the number of test cases. Then t test cases follow.</p><p>The only line of the test case contains two integers n and x (1≤n,x≤1000) — the number of Petya’s apartment and the number of apartments on each floor of the house except the first one (there are two apartments on the first floor).</p><h3 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h3><p>For each test case, print the answer: the number of floor on which Petya lives.</p><h3 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h3><h4 id="input"><a href="#input" class="headerlink" title="input"></a>input</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">7 3</span><br><span class="line">1 5</span><br><span class="line">22 5</span><br><span class="line">987 13</span><br></pre></td></tr></table></figure><h4 id="output"><a href="#output" class="headerlink" title="output"></a>output</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">1</span><br><span class="line">5</span><br><span class="line">77</span><br></pre></td></tr></table></figure><h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><p>Consider the first test case of the example: the first floor contains apartments with numbers 1 and 2, the second one contains apartments with numbers 3, 4 and 5, the third one contains apartments with numbers 6, 7 and 8. Therefore, Petya lives on the third floor.</p><p>In the second test case of the example, Petya lives in the apartment 1 which is on the first floor.</p><h1 id="My-contest-submissions"><a href="#My-contest-submissions" class="headerlink" title="My contest submissions"></a>My contest submissions</h1><table><thead><tr><th>#</th><th>When</th><th>Who</th><th>Problem</th><th>Lang</th><th>Verdict</th><th>Time Memory</th></tr></thead><tbody><tr><td>175509632</td><td>Oct&#x2F;11&#x2F;2022 14:56UTC+8</td><td>JiangnanPsalter</td><td>A - Floor Number</td><td>GNU C++20 (64)</td><td>Accepted</td><td>15 ms0 KB</td></tr></tbody></table><h1 id="AC-Code"><a href="#AC-Code" class="headerlink" title="AC Code"></a>AC Code</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;bits/stdc++.h&quot;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">typedef</span> <span class="type">long</span> <span class="type">long</span> ll;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">ll n, x;</span><br><span class="line">cin &gt;&gt; n &gt;&gt; x;</span><br><span class="line">ll ans;</span><br><span class="line">ans = (n - <span class="number">2</span> + x) / x;</span><br><span class="line"><span class="keyword">if</span> (n &lt;= <span class="number">2</span>) &#123;</span><br><span class="line">cout &lt;&lt; <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line"><span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> (n &gt; <span class="number">2</span>) &#123;</span><br><span class="line"><span class="keyword">if</span> ((n - <span class="number">2</span>) % x)</span><br><span class="line">cout &lt;&lt; ans + <span class="number">1</span> &lt;&lt; endl;</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">cout &lt;&lt; ans &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">ll t;</span><br><span class="line">cin &gt;&gt; t;</span><br><span class="line"><span class="keyword">while</span> (t --) &#123;</span><br><span class="line"><span class="built_in">solve</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;题目来源：&lt;a href=&quot;https://codeforces.com/contest/1426/problem/A&quot;&gt;https://codeforces.com/contest/1426/problem/A&lt;/a&gt;&lt;/p&gt;
-&lt;/blockqu</summary>
-      
-    
-    
-    
-    <category term="编程/程序设计" scheme="http://jiangnanpsalter.github.io/categories/%E7%BC%96%E7%A8%8B-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Quotes on Truth</title>
-    <link href="http://jiangnanpsalter.github.io/2024/01/29/Quotes%20on%20Truth/"/>
-    <id>http://jiangnanpsalter.github.io/2024/01/29/Quotes%20on%20Truth/</id>
-    <published>2024-01-29T06:23:35.876Z</published>
-    <updated>2024-04-04T16:49:45.293Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Quotes-on-Truth"><a href="#Quotes-on-Truth" class="headerlink" title="Quotes on Truth"></a>Quotes on Truth</h1><blockquote><p>本文来源：<a href="https://seagull.baicizhan.com/react_reading/reading/article/2924?buid=2124144499&recording=null&timestamp=1706509253000">https://seagull.baicizhan.com/react_reading/reading/article/2924?buid=2124144499&amp;recording=null&amp;timestamp=1706509253000</a></p></blockquote><p>A lie can travel halfway around the world while the truth is putting on its shoes.<br>―Mark Twain<br>谎言传遍半个地球的时候，真相还在穿鞋。</p><p>——马克·吐温</p><p>There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.<br>—Ernest Hemingway<br>优于别人并非高尚；今日之你优于昨日之你，才是真正的高尚。</p><p>——欧内斯特·海明威</p><p>Strong minds discuss ideas, average minds discuss events, weak minds discuss people.<br>大智论道，中智论事，小智论人。</p><p>Never argue with stupid people, they will drag you down to their level and then beat you with experience.<br>―Mark Twain<br>不要和愚蠢之人争辩，他们会把你拉低到他们的水平，然后用经验打败你。</p><p>——马克·吐温</p><p>Happiness always looks small while you hold it in your hands, but let it go, and you learn at once how big and precious it is.<br>―Maxim Gorky<br>你把幸福捧在手里，看似微不足道，但一旦放手，你便立刻感觉到它的重要与珍贵。</p><p>——马克西姆·高尔基</p><p>Behavior is the mirror in which everyone shows their image.<br>行为是面镜子，反射出每个人的真实自我。</p><p>Courage is what it takes to stand up and speak. Courage is also what it takes to sit down and listen.<br>–Winston Churchill<br>勇气是能站起来侃侃而谈。勇气也是能坐下来静静倾听。</p><p>——温斯顿·丘吉尔</p><p><img src="/img/grow.jpg"></p><p>Whenever you find yourself on the side of the majority, it is time to pause and reflect.<br>–Mark Twain<br>每当你发现自己和大多数人站在一边时，你就该停下来反思一下。</p><p>——马克·吐温</p><p>Nobody can hurt me without my permission.<br>—Mahatma Gandhi<br>没有人能不经我的允许伤害我。</p><p>——圣雄甘地</p><p>The two most important days in your life are the day you are born and the day you find out why.<br>—Mark Twain<br>人生中最重要的两个日子：出生那天和找到出生意义那天。</p><p>——马克·吐温</p><p>Hurt me with the truth. Don’t comfort me with a lie.<br>—Rihanna<br>宁愿用真相伤害我，也不要用谎言安慰我。</p><p>——蕾哈娜</p><p>It is our choices, that show what we truly are, far more than our abilities.<br>—J.K. Rowling<br>展现我们真正自我的不是我们的能力，而是我们的选择。</p><p>——J·K·罗琳</p><p>Once you’ve accepted your flaws, no one can use them against you.<br>—George R.R. Martin<br>只要你正视自己的弱点，就没人能利用它们来对付你。</p><p>——乔治·雷蒙德·理查德·马丁</p><p>There are rich people, and there are those who have money. They are not the same people.<br>—Coco Chanel<br>世上有富有的人，也有有钱的人。他们不是一类人。</p><p>——可可·香奈儿</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;Quotes-on-Truth&quot;&gt;&lt;a href=&quot;#Quotes-on-Truth&quot; class=&quot;headerlink&quot; title=&quot;Quotes on Truth&quot;&gt;&lt;/a&gt;Quotes on Truth&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;本文来源：</summary>
       
     
     
