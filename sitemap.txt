@@ -1,3 +1,4 @@
+http://jiangnanpsalter.github.io/2025/04/17/1.%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/
 http://jiangnanpsalter.github.io/2025/04/16/0.%E9%85%8D%E7%BD%AEsublime%20c++%E7%8E%AF%E5%A2%83/
 http://jiangnanpsalter.github.io/2025/04/12/%E5%8F%B0%E7%90%83%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%9D%8E%E7%BE%A4%E4%BD%9C%E7%94%A8/
 http://jiangnanpsalter.github.io/2024/01/11/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99/
@@ -9,7 +10,6 @@ http://jiangnanpsalter.github.io/2025/04/03/Article%EF%BC%9AThe%20Power%20of%20B
 http://jiangnanpsalter.github.io/2025/04/02/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%EF%BC%9A%E6%BC%AB%E6%AD%A5%E6%97%B6%E5%85%89%E2%80%94%E2%80%94%E6%88%91%E7%9A%84%E6%82%A0%E7%84%B6%E8%87%AA%E5%BE%97%E4%B8%8E%E7%B2%BE%E8%BF%9B%E4%B9%8B%E8%B7%AF/
 http://jiangnanpsalter.github.io/2025/04/02/%E5%92%8F%E4%BE%A0%20%E3%80%90%E6%A5%9A%E7%95%99%E9%A6%99%20%E4%BE%A0%E5%AE%A2%E8%A1%8C%20%E6%9C%88%E8%BD%BD%E6%AD%A4%E6%83%85%E5%9B%9B%E5%90%88%E9%99%A2%E6%88%98%E6%AD%8C%E3%80%91/
 http://jiangnanpsalter.github.io/2025/03/27/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%EF%BC%9A%E7%90%86%E8%A7%A3%E4%B8%8E%E6%88%90%E9%95%BF%E2%80%94%E2%80%94%E4%B8%8E%E7%88%B6%E6%AF%8D%E5%92%8C%E8%A7%A3%EF%BC%8C%E8%B5%B0%E5%90%91%E4%BC%98%E9%9B%85%E7%9A%84%E8%87%AA%E5%B7%B1/
-http://jiangnanpsalter.github.io/2024/04/03/%E5%86%85%E5%9C%A8%E5%92%8C%E5%A4%96%E5%9C%A8%E7%9A%84%E5%90%AF%E7%A4%BA/
 http://jiangnanpsalter.github.io/2024/06/03/%E8%A1%8C%E4%B8%9A%E7%89%B9%E5%BE%81%E4%B8%8E%E4%B8%AA%E4%BA%BA%E5%BD%A2%E8%B1%A1%EF%BC%9A%E5%BD%B1%E5%93%8D%E5%90%8E%E4%BB%A3%E7%9A%84%E6%97%A0%E5%BD%A2%E9%81%97%E4%BA%A7/
 http://jiangnanpsalter.github.io/2024/04/09/Hexo%E4%BD%BF%E7%94%A8SSH%E8%BF%9E%E6%8E%A5GitHub/
 http://jiangnanpsalter.github.io/2024/04/06/%E5%90%8C%E9%A2%91%E5%85%B1%E6%8C%AF%EF%BC%9A%E7%9F%A5%E8%AF%86%E8%83%8C%E6%99%AF%E4%B8%8E%E5%9B%A2%E7%BB%93%E5%8A%9B%E9%87%8F/
@@ -31,6 +31,11 @@ http://jiangnanpsalter.github.io/2024/01/26/Stand%20Tall%20Like%20The%20Sunflowe
 http://jiangnanpsalter.github.io/2024/01/29/Quotes%20on%20Truth/
 http://jiangnanpsalter.github.io/2024/01/30/Quotes%20on%20Attitudes/
 http://jiangnanpsalter.github.io/
+http://jiangnanpsalter.github.io/tags/Sublime/
+http://jiangnanpsalter.github.io/tags/C/
+http://jiangnanpsalter.github.io/tags/IDE/
+http://jiangnanpsalter.github.io/tags/AcWing/
+http://jiangnanpsalter.github.io/tags/Algorithm/
 http://jiangnanpsalter.github.io/tags/CTF/
 http://jiangnanpsalter.github.io/tags/ACM/
 http://jiangnanpsalter.github.io/tags/OI/
@@ -43,13 +48,13 @@ http://jiangnanpsalter.github.io/tags/CAFN/
 http://jiangnanpsalter.github.io/tags/Domain/
 http://jiangnanpsalter.github.io/tags/Programming/
 http://jiangnanpsalter.github.io/categories/%E6%88%91%E7%9A%84%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/
-http://jiangnanpsalter.github.io/categories/%E9%80%9A%E7%9F%A5%E4%B8%8E%E5%85%AC%E7%A4%BA/
 http://jiangnanpsalter.github.io/categories/%E5%8D%9A%E4%B8%BB%E7%9A%84%E8%A7%82%E7%82%B9%E5%92%8C%E6%80%81%E5%BA%A6/
+http://jiangnanpsalter.github.io/categories/%E9%80%9A%E7%9F%A5%E4%B8%8E%E5%85%AC%E7%A4%BA/
 http://jiangnanpsalter.github.io/categories/%E7%BC%96%E7%A8%8B-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/
 http://jiangnanpsalter.github.io/categories/%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
 http://jiangnanpsalter.github.io/categories/%E5%93%B2%E5%AD%A6%E3%80%81%E6%96%87%E5%AD%A6%E4%B8%8E%E8%89%BA%E6%9C%AF/
 http://jiangnanpsalter.github.io/categories/%E5%A4%A9%E8%B5%8B%E5%9E%8B%E9%80%89%E6%89%8B%E4%B8%80%E5%8F%A5%E6%A2%97%EF%BC%8C%E6%88%91%E8%83%8C%E4%BA%86%E4%B8%89%E5%B9%B4/
+http://jiangnanpsalter.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/
 http://jiangnanpsalter.github.io/categories/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/
 http://jiangnanpsalter.github.io/categories/%E6%9C%89%E5%85%B3%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%B7%B1%E6%80%9D%E5%92%8C%E7%BB%93%E8%AE%BA/
-http://jiangnanpsalter.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/
 http://jiangnanpsalter.github.io/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/HTB/
