@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://touristdaughter.cyou/2024/01/11/about/</loc>
+    <loc>https://touristdaughter.cyou/2024/01/11/About/</loc>
     
     <lastmod>2025-04-25</lastmod>
     
@@ -450,13 +450,6 @@
   </url>
   
   <url>
-    <loc>https://touristdaughter.cyou/categories/%E7%BC%96%E7%A8%8B-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2025-04-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://touristdaughter.cyou/categories/%E9%80%9A%E7%9F%A5%E4%B8%8E%E5%85%AC%E7%A4%BA/</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -471,7 +464,7 @@
   </url>
   
   <url>
-    <loc>https://touristdaughter.cyou/categories/%E5%A4%A9%E8%B5%8B%E5%9E%8B%E9%80%89%E6%89%8B%E4%B8%80%E5%8F%A5%E6%A2%97%EF%BC%8C%E6%88%91%E8%83%8C%E4%BA%86%E4%B8%89%E5%B9%B4/</loc>
+    <loc>https://touristdaughter.cyou/categories/%E7%BC%96%E7%A8%8B-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -485,6 +478,13 @@
   </url>
   
   <url>
+    <loc>https://touristdaughter.cyou/categories/%E5%A4%A9%E8%B5%8B%E5%9E%8B%E9%80%89%E6%89%8B%E4%B8%80%E5%8F%A5%E6%A2%97%EF%BC%8C%E6%88%91%E8%83%8C%E4%BA%86%E4%B8%89%E5%B9%B4/</loc>
+    <lastmod>2025-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://touristdaughter.cyou/categories/%E6%AD%8C%E6%9B%B2%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -492,14 +492,14 @@
   </url>
   
   <url>
-    <loc>https://touristdaughter.cyou/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://touristdaughter.cyou/categories/%E6%9C%89%E5%85%B3%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%B7%B1%E6%80%9D%E5%92%8C%E7%BB%93%E8%AE%BA/</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://touristdaughter.cyou/categories/%E6%9C%89%E5%85%B3%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%B7%B1%E6%80%9D%E5%92%8C%E7%BB%93%E8%AE%BA/</loc>
+    <loc>https://touristdaughter.cyou/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
