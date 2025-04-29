@@ -6,7 +6,7 @@
   <link href="https://touristdaughter.cyou/atom.xml" rel="self"/>
   
   <link href="https://touristdaughter.cyou/"/>
-  <updated>2025-04-29T11:16:06.478Z</updated>
+  <updated>2025-04-29T20:16:14.452Z</updated>
   <id>https://touristdaughter.cyou/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>暗夜程序员的时区重构指南——当3AM的月光成为我的晨光</title>
+    <link href="https://touristdaughter.cyou/2025/04/30/%E6%9A%97%E5%A4%9C%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%97%B6%E5%8C%BA%E9%87%8D%E6%9E%84%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E5%BD%933AM%E7%9A%84%E6%9C%88%E5%85%89%E6%88%90%E4%B8%BA%E6%88%91%E7%9A%84%E6%99%A8%E5%85%89/"/>
+    <id>https://touristdaughter.cyou/2025/04/30/%E6%9A%97%E5%A4%9C%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%97%B6%E5%8C%BA%E9%87%8D%E6%9E%84%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E5%BD%933AM%E7%9A%84%E6%9C%88%E5%85%89%E6%88%90%E4%B8%BA%E6%88%91%E7%9A%84%E6%99%A8%E5%85%89/</id>
+    <published>2025-04-29T20:13:37.084Z</published>
+    <updated>2025-04-29T20:16:14.452Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="暗夜程序员的时区重构指南"><a href="#暗夜程序员的时区重构指南" class="headerlink" title="暗夜程序员的时区重构指南"></a>暗夜程序员的时区重构指南</h1><h1 id="——当3AM的月光成为我的晨光"><a href="#——当3AM的月光成为我的晨光" class="headerlink" title="——当3AM的月光成为我的晨光"></a>——当3AM的月光成为我的晨光</h1><h2 id="🌙-时空折叠协议"><a href="#🌙-时空折叠协议" class="headerlink" title="🌙 时空折叠协议"></a>🌙 时空折叠协议</h2><p>我将生物钟锚定在<strong>19:00-3:00睡眠段</strong>，让清醒时间与全球竞赛时间线（UTC+0~+8）完美重叠。<strong>3AM的唤醒仪式</strong>包含：  </p><ol><li>5000K冷白光瞬时满亮度照射（模拟日出）  </li><li>光轴键盘敲击《卡农》前奏（肌肉记忆激活）  </li><li><del>冰美式静脉注射（）</del></li></ol><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 晨间唤醒程序  </span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dawn_routine</span><span class="params">()</span> </span>&#123;  </span><br><span class="line">    light.<span class="built_in">set</span>(<span class="number">5000</span>K, <span class="number">1000lu</span>x);  </span><br><span class="line">    <span class="built_in">play</span>(<span class="string">&quot;Canon_in_D.midi&quot;</span>);  </span><br><span class="line">    coffee.<span class="built_in">inject</span>(ShotType::TRIPLE_ESPRESSO);  </span><br><span class="line">&#125;  </span><br></pre></td></tr></table></figure><h2 id="☀️-维生素D3补偿圣典"><a href="#☀️-维生素D3补偿圣典" class="headerlink" title="☀️ 维生素D3补偿圣典"></a>☀️ 维生素D3补偿圣典</h2><h3 id="1-量子化日光浴"><a href="#1-量子化日光浴" class="headerlink" title="1. 量子化日光浴"></a>1. 量子化日光浴</h3><pre><code class="python">if 紫外线指数 &gt; 3:      暴露皮肤 = min(15min, 全身25%面积)  else:      启动UVB灯(波长290-315nm) + D3补充剂(5000IU)  </code></pre><h3 id="2-营养矩阵"><a href="#2-营养矩阵" class="headerlink" title="2. 营养矩阵"></a>2. 营养矩阵</h3><table><thead><tr><th>时间</th><th>补给</th><th>科技加成</th></tr></thead><tbody><tr><td>3:15AM</td><td>深海鱼油</td><td>促进D3吸收率+40%</td></tr><tr><td>6:30AM</td><td>蛋黄*2 + 强化牛奶</td><td>天然D3源</td></tr><tr><td>4:00PM</td><td>维生素K2滴剂</td><td>引导钙质定向沉积</td></tr></tbody></table><h2 id="⚡-黑暗增益效应"><a href="#⚡-黑暗增益效应" class="headerlink" title="⚡ 黑暗增益效应"></a>⚡ 黑暗增益效应</h2><ul><li>**编译速度↑30%**：子夜时分GCC产生量子隧穿效应  </li><li><strong>BUG可见度↓</strong>：凌晨的段错误提示自带马赛克滤镜  </li><li><strong>灵感暴击率↑</strong>：月光下数学公式自动投影到视网膜</li></ul><h2 id="⚠️-生存警告"><a href="#⚠️-生存警告" class="headerlink" title="⚠️ 生存警告"></a>⚠️ 生存警告</h2><pre><code>WARNING: 本作息将导致  1. 社交时间轴偏移（自动回复机器人已部署）  2. 看见不存在的编译错误（建议佩戴琥珀色护目镜）  3. 产生时区优越感（谨慎向早八人炫耀）  </code></pre><blockquote><p>“当你的第一个AC提交记录出现在GitHub的极夜区，就会明白——<br>真正的代码，从不需要阳光见证。”  </p></blockquote><pre><code class="bash">$ ./life --scheme=nocturnal --vitamin-d=300%  </code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;暗夜程序员的时区重构指南&quot;&gt;&lt;a href=&quot;#暗夜程序员的时区重构指南&quot; class=&quot;headerlink&quot; title=&quot;暗夜程序员的时区重构指南&quot;&gt;&lt;/a&gt;暗夜程序员的时区重构指南&lt;/h1&gt;&lt;h1 id=&quot;——当3AM的月光成为我的晨光&quot;&gt;&lt;a href=</summary>
+      
+    
+    
+    
+    <category term="通知与公示" scheme="https://touristdaughter.cyou/categories/%E9%80%9A%E7%9F%A5%E4%B8%8E%E5%85%AC%E7%A4%BA/"/>
+    
+    
+    <category term="ACM" scheme="https://touristdaughter.cyou/tags/ACM/"/>
+    
+    <category term="OI" scheme="https://touristdaughter.cyou/tags/OI/"/>
+    
+    <category term="MONSOON" scheme="https://touristdaughter.cyou/tags/MONSOON/"/>
+    
+    <category term="JiangnanPsalter" scheme="https://touristdaughter.cyou/tags/JiangnanPsalter/"/>
+    
+    <category term="AcWing" scheme="https://touristdaughter.cyou/tags/AcWing/"/>
+    
+    <category term="CAFN" scheme="https://touristdaughter.cyou/tags/CAFN/"/>
+    
+    <category term="Codeforces" scheme="https://touristdaughter.cyou/tags/Codeforces/"/>
+    
+  </entry>
   
   <entry>
     <title>Why I Like Baby Blue</title>
@@ -78,9 +114,9 @@
     
     
     
-    <category term="Algorithm" scheme="https://touristdaughter.cyou/tags/Algorithm/"/>
-    
     <category term="C++" scheme="https://touristdaughter.cyou/tags/C/"/>
+    
+    <category term="Algorithm" scheme="https://touristdaughter.cyou/tags/Algorithm/"/>
     
     <category term="Math" scheme="https://touristdaughter.cyou/tags/Math/"/>
     
@@ -108,9 +144,9 @@
     <category term="总结" scheme="https://touristdaughter.cyou/categories/%E6%80%BB%E7%BB%93/"/>
     
     
-    <category term="Algorithm" scheme="https://touristdaughter.cyou/tags/Algorithm/"/>
-    
     <category term="C++" scheme="https://touristdaughter.cyou/tags/C/"/>
+    
+    <category term="Algorithm" scheme="https://touristdaughter.cyou/tags/Algorithm/"/>
     
     <category term="Math" scheme="https://touristdaughter.cyou/tags/Math/"/>
     
@@ -180,7 +216,7 @@
     <published>2025-04-23T15:06:38.612Z</published>
     <updated>2025-04-29T06:20:53.820Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="🔥「JiangnanPsalter的算法征程：暂别与归来」"><a href="#🔥「JiangnanPsalter的算法征程：暂别与归来」" class="headerlink" title="🔥「JiangnanPsalter的算法征程：暂别与归来」"></a>🔥「JiangnanPsalter的算法征程：暂别与归来」</h1><h3 id="——三年沉淀，如今携代码之魂重返算法电子竞技场"><a href="#——三年沉淀，如今携代码之魂重返算法电子竞技场" class="headerlink" title="——三年沉淀，如今携代码之魂重返算法电子竞技场"></a>——三年沉淀，如今携代码之魂重返算法电子竞技场</h3><hr><h1 id="🚀-关于我"><a href="#🚀-关于我" class="headerlink" title="🚀 关于我"></a>🚀 关于我</h1><p>我是 JiangnanPsalter，一名狂热的算法竞赛爱好者。大学本科期间，我有幸加入校级ACM实验室 &amp; 协会，成为其中一员，与队友并肩作战，学习 C  、 C++  和  ACM  算法。  </p><p>然而，前年因论文研究 &amp; 学术事务，我不得不暂别算法竞赛，将重心转向科研。如今，随着阶段性任务的完成，我正式宣布：  </p><p>🔊 2025年，我回来了！  </p><hr><h3 id="📅-当前状态"><a href="#📅-当前状态" class="headerlink" title="📅 当前状态"></a>📅 当前状态</h3><ul><li>训练模式：全天候投入（全年无工作和环境干扰，专注刷题 &amp; 比赛）  </li><li>复健进度：C++康复训练中（三年未碰算法，正在重拾STL、动态规划、图论等核心技能）  </li><li>VP邀约：开放组队（ 【C++康复训练完之后】欢迎志同道合的朋友一起<code>Virtual Participation</code>！）</li></ul><hr><h3 id="🎯-为什么回归？"><a href="#🎯-为什么回归？" class="headerlink" title="🎯 为什么回归？"></a>🎯 为什么回归？</h3><ol><li>热爱从未消退  <ul><li>即使暂停比赛，我仍会偶尔点开  tourist  的提交记录，研究他的码风。  </li><li>每次看到  CF  的比赛通知，手指都会不自觉地想注册。</li></ul></li><li>未竟的执念  <ul><li>当年因实力不足，未能冲进  ICPC ，如今想弥补遗憾。  </li><li>想证明：“即使中断三年，依然可以重回巅峰。”</li></ul></li></ol><hr><h3 id="💡-致谢：那些年带我成长的CAFN战友"><a href="#💡-致谢：那些年带我成长的CAFN战友" class="headerlink" title="💡 致谢：那些年带我成长的CAFN战友"></a>💡 致谢：那些年带我成长的CAFN战友</h3><p>回归之际，不得不提当年在QQ群「CAFN」的岁月。这个由各路算法爱好者组成的网络组织，曾是我进步的摇篮。  </p><p>特别感谢：  </p><ul><li><code>- Astraia -</code>（人称lys，全栈开发宗师。冷静分析帝，教我如何理性debug）  </li><li><code>沉淀哥</code>（暴力美学大师，让我学会“先写再优化”，告诉我不要怕）  </li><li><code>hope姐</code> （手把手教我平衡树）</li><li><code>taotao姐</code> （超级温柔的acm大佬）</li><li><code>XrkArul哥</code>（数据结构之王，手搓A-H题解的acm银牌大神）  </li><li><code>scanner</code>（我的师父，用最狠的话骂出最稳的代码）  </li><li><code>笙笙哥</code>（数学鬼才，数论题全靠他救命）  </li><li><code>黛西哥</code>（贪心策略之王，让我学会“局部最优≠全局最优”）  </li><li><code>彩虹哥</code>（比赛心态导师，告诉我“WA是过程，AC是必然”）  </li><li><code>羊哥Clumsy_</code>（摆烂能量守恒定律奠基人，教会我反内卷波动方程和量子摸鱼协议（已获IEEE认证））<blockquote><p>补丁说明v2.3.3<br>将羊哥写入ACM基地核心DNA螺旋链（ATCG碱基替换为ACME）<br>在ACM团队LOGO暗纹加入羊哥摸鱼剪影（需紫外线照射可见）<br>所有成员的光轴键盘新增<code>Alt+Shift+🐑</code>快捷键（一键启动量子摸鱼协议）<br>输入 <code>docker run --rm -it 羊哥的认可</code> 领取限量版”摆烂者联盟”勋章</p></blockquote></li></ul><p>当时的我，总觉得自己很菜，不敢和他们比肩。<br>但如今回头看，正是这群人的严格指导，让我在短时间内飞速成长。  </p><p>可惜的是，他们大多已退役，或忙于工作，或转向其他领域。<br>但他们的精神仍在——而我会带着这份传承，继续征战。  </p><h3 id="还有特别鸣谢shh弟弟一直鼓励我并且给我寄了一本《C-primer》前六章，使我受到极客思想的熏陶。"><a href="#还有特别鸣谢shh弟弟一直鼓励我并且给我寄了一本《C-primer》前六章，使我受到极客思想的熏陶。" class="headerlink" title="还有特别鸣谢shh弟弟一直鼓励我并且给我寄了一本《C++ primer》前六章，使我受到极客思想的熏陶。"></a>还有特别鸣谢<a href="https://www.acwing.com/user/myspace/index/193181/">shh弟弟</a>一直鼓励我并且给我寄了一本《C++ primer》前六章，使我受到极客思想的熏陶。</h3><h3 id="最重要的是感恩遇见AcWing，-y-总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明-希望-yxc-老师不要删库跑路了"><a href="#最重要的是感恩遇见AcWing，-y-总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明-希望-yxc-老师不要删库跑路了" class="headerlink" title="最重要的是感恩遇见AcWing， y  总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明 希望 @yxc 老师不要删库跑路了~~"></a>最重要的是感恩遇见<a href="https://www.acwing.com/">AcWing</a>， y  总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明 希望 @yxc 老师不要删库跑路了~~</h3><hr><h3 id="🏆-未来计划"><a href="#🏆-未来计划" class="headerlink" title="🏆 未来计划"></a>🏆 未来计划</h3><ol><li>短期（3个月）  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这不能说。</span><br></pre></td></tr></table></figure></li><li>中期（6个月）  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这不能说。</span><br></pre></td></tr></table></figure></li><li>长期（1年+）  <ul><li>带队训练（如果有新人愿意一起进步）  </li><li>写算法教程（把师父scanner的“暴躁教学法”改良成温和版）</li></ul></li></ol><hr><h3 id="🌟-最后的话"><a href="#🌟-最后的话" class="headerlink" title="🌟 最后的话"></a>🌟 最后的话</h3><p>“算法竞赛不是短跑，而是马拉松。”<br>即使三年没碰，我依然相信，只要保持热爱，坚持训练，终能重回巅峰。  </p><p>如果你也在复健，或者想找VP队友，欢迎联系我！<br>📮 邮箱：<a href="mailto:&#106;&#x69;&#97;&#110;&#x67;&#110;&#97;&#x6e;&#x70;&#x73;&#97;&#108;&#116;&#101;&#114;&#64;&#x66;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#106;&#x69;&#97;&#110;&#x67;&#110;&#97;&#x6e;&#x70;&#x73;&#97;&#108;&#116;&#101;&#114;&#64;&#x66;&#x6f;&#120;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;</a>  </p><p>“这一次，我不会再轻易离开。”  </p><hr><h3 id="JiangnanPsalter"><a href="#JiangnanPsalter" class="headerlink" title="JiangnanPsalter"></a>JiangnanPsalter</h3><p>2025年 · 正式回归  </p><h3 id="JiangnanPsalter-始终还是-JiangnanPsalter-啊"><a href="#JiangnanPsalter-始终还是-JiangnanPsalter-啊" class="headerlink" title="JiangnanPsalter 始终还是 JiangnanPsalter 啊."></a>JiangnanPsalter 始终还是 JiangnanPsalter 啊.</h3><p>（P.S. Scanner 师父，我回来了，准备好继续骂我 WA 的代码了吗？ 😏）  </p><blockquote><p>WARNING (“⚠️ In three seconds, my blog will become my instructor’s cyber potted plant…”). Welcome to Master’s digital garden. 🌱✨</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="🔥「JiangnanPsalter的算法征程：暂别与归来」"><a href="#🔥「JiangnanPsalter的算法征程：暂别与归来」" class="headerlink" title="🔥「JiangnanPsalter的算法征程：暂别与归来」"></a>🔥「JiangnanPsalter的算法征程：暂别与归来」</h1><h3 id="——三年沉淀，如今携代码之魂重返算法电子竞技场"><a href="#——三年沉淀，如今携代码之魂重返算法电子竞技场" class="headerlink" title="——三年沉淀，如今携代码之魂重返算法电子竞技场"></a>——三年沉淀，如今携代码之魂重返算法电子竞技场</h3><hr><h1 id="🚀-关于我"><a href="#🚀-关于我" class="headerlink" title="🚀 关于我"></a>🚀 关于我</h1><p>我是 JiangnanPsalter，一名狂热的算法竞赛爱好者。大学本科期间，我有幸加入校级ACM实验室 &amp; 协会，成为其中一员，与队友并肩作战，学习 C  、 C++  和  ACM  算法。  </p><p>然而，前年因论文研究 &amp; 学术事务，我不得不暂别算法竞赛，将重心转向科研。如今，随着阶段性任务的完成，我正式宣布：  </p><p>🔊 2025年，我回来了！  </p><hr><h3 id="📅-当前状态"><a href="#📅-当前状态" class="headerlink" title="📅 当前状态"></a>📅 当前状态</h3><ul><li>训练模式：全天候投入（全年无工作和环境干扰，专注刷题 &amp; 比赛）  </li><li>复健进度：C++康复训练中（三年未碰算法，正在重拾STL、动态规划、图论等核心技能）  </li><li>VP邀约：开放组队（ 【C++康复训练完之后】欢迎志同道合的朋友一起<code>Virtual Participation</code>！）</li></ul><hr><h3 id="🎯-为什么回归？"><a href="#🎯-为什么回归？" class="headerlink" title="🎯 为什么回归？"></a>🎯 为什么回归？</h3><ol><li>热爱从未消退  <ul><li>即使暂停比赛，我仍会偶尔点开  tourist  的提交记录，研究他的码风。  </li><li>每次看到  CF  的比赛通知，手指都会不自觉地想注册。</li></ul></li><li>未竟的执念  <ul><li>当年因实力不足，未能冲进  ICPC ，如今想弥补遗憾。  </li><li>想证明：“即使中断三年，依然可以重回巅峰。”</li></ul></li></ol><hr><h3 id="💡-致谢：那些年带我成长的CAFN战友"><a href="#💡-致谢：那些年带我成长的CAFN战友" class="headerlink" title="💡 致谢：那些年带我成长的CAFN战友"></a>💡 致谢：那些年带我成长的CAFN战友</h3><p>回归之际，不得不提当年在QQ群「CAFN」的岁月。这个由各路算法爱好者组成的网络组织，曾是我进步的摇篮。  </p><p>特别感谢：  </p><ul><li><code>- Astraia -</code>（人称lys，全栈开发宗师。冷静分析帝，教我如何理性debug）  </li><li><code>沉淀哥</code>（暴力美学大师，让我学会“先写再优化”，告诉我不要怕）  </li><li><code>hope姐</code> （手把手教我平衡树）</li><li><code>taotao姐</code> （超级温柔的acm大佬）</li><li><code>XrkArul哥</code>（数据结构之王，手搓A-H题解的acm银牌大神）  </li><li><code>scanner</code>（我的师父，用最狠的话骂出最稳的代码）  </li><li><code>笙笙哥</code>（数学鬼才，数论题全靠他救命）  </li><li><code>黛西哥</code>（贪心策略之王，让我学会“局部最优≠全局最优”）  </li><li><code>彩虹哥</code>（比赛心态导师，告诉我“WA是过程，AC是必然”）  </li><li><code>羊哥Clumsy_</code>（摆烂能量守恒定律奠基人，教会我反内卷波动方程和量子摸鱼协议（已获IEEE认证））<blockquote><p>补丁说明v2.3.3<br>将羊哥写入ACM基地核心DNA螺旋链（ATCG碱基替换为ACME）<br>在ACM团队LOGO暗纹加入羊哥摸鱼剪影（需紫外线照射可见）<br>所有成员的光轴键盘新增<code>Alt+Shift+🐑</code>快捷键（一键启动量子摸鱼协议）<br>输入 <code>docker run --rm -it 羊哥的认可</code> 领取限量版”摆烂者联盟”勋章</p></blockquote></li></ul><p>当时的我，总觉得自己很菜，不敢和他们比肩。<br>但如今回头看，正是这群人的严格指导，让我在短时间内飞速成长。  </p><p>可惜的是，他们大多已退役，或忙于工作，或转向其他领域。<br>但他们的精神仍在——而我会带着这份传承，继续征战。  </p><h3 id="还有特别鸣谢shh弟弟一直鼓励我并且给我寄了一本《C-primer》前六章，使我受到极客思想的熏陶。"><a href="#还有特别鸣谢shh弟弟一直鼓励我并且给我寄了一本《C-primer》前六章，使我受到极客思想的熏陶。" class="headerlink" title="还有特别鸣谢shh弟弟一直鼓励我并且给我寄了一本《C++ primer》前六章，使我受到极客思想的熏陶。"></a>还有特别鸣谢<a href="https://www.acwing.com/user/myspace/index/193181/">shh弟弟</a>一直鼓励我并且给我寄了一本《C++ primer》前六章，使我受到极客思想的熏陶。</h3><h3 id="最重要的是感恩遇见AcWing，-y-总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明-希望-yxc-老师不要删库跑路了"><a href="#最重要的是感恩遇见AcWing，-y-总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明-希望-yxc-老师不要删库跑路了" class="headerlink" title="最重要的是感恩遇见AcWing， y  总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明 希望 @yxc 老师不要删库跑路了~~"></a>最重要的是感恩遇见<a href="https://www.acwing.com/">AcWing</a>， y  总讲的很好，只不过我比较愚钝，需要思考和消化一段时间才能完全吸收，在此声明 希望 @yxc 老师不要删库跑路了~~</h3><hr><h3 id="🏆-未来计划"><a href="#🏆-未来计划" class="headerlink" title="🏆 未来计划"></a>🏆 未来计划</h3><ol><li>短期（3个月）  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这不能说。</span><br></pre></td></tr></table></figure></li><li>中期（6个月）  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这不能说。</span><br></pre></td></tr></table></figure></li><li>长期（1年+）  <ul><li>带队训练（如果有新人愿意一起进步）  </li><li>写算法教程（把师父scanner的“暴躁教学法”改良成温和版）</li></ul></li></ol><hr><h3 id="🌟-最后的话"><a href="#🌟-最后的话" class="headerlink" title="🌟 最后的话"></a>🌟 最后的话</h3><p>“算法竞赛不是短跑，而是马拉松。”<br>即使三年没碰，我依然相信，只要保持热爱，坚持训练，终能重回巅峰。  </p><p>如果你也在复健，或者想找VP队友，欢迎联系我！<br>📮 邮箱：<a href="mailto:&#106;&#105;&#97;&#x6e;&#103;&#110;&#x61;&#110;&#x70;&#x73;&#x61;&#108;&#x74;&#101;&#x72;&#64;&#x66;&#x6f;&#x78;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#106;&#105;&#97;&#x6e;&#103;&#110;&#x61;&#110;&#x70;&#x73;&#x61;&#108;&#x74;&#101;&#x72;&#64;&#x66;&#x6f;&#x78;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a>  </p><p>“这一次，我不会再轻易离开。”  </p><hr><h3 id="JiangnanPsalter"><a href="#JiangnanPsalter" class="headerlink" title="JiangnanPsalter"></a>JiangnanPsalter</h3><p>2025年 · 正式回归  </p><h3 id="JiangnanPsalter-始终还是-JiangnanPsalter-啊"><a href="#JiangnanPsalter-始终还是-JiangnanPsalter-啊" class="headerlink" title="JiangnanPsalter 始终还是 JiangnanPsalter 啊."></a>JiangnanPsalter 始终还是 JiangnanPsalter 啊.</h3><p>（P.S. Scanner 师父，我回来了，准备好继续骂我 WA 的代码了吗？ 😏）  </p><blockquote><p>WARNING (“⚠️ In three seconds, my blog will become my instructor’s cyber potted plant…”). Welcome to Master’s digital garden. 🌱✨</p></blockquote>]]></content>
     
     
       
@@ -193,8 +229,6 @@
     <category term="通知与公示" scheme="https://touristdaughter.cyou/categories/%E9%80%9A%E7%9F%A5%E4%B8%8E%E5%85%AC%E7%A4%BA/"/>
     
     
-    <category term="AcWing" scheme="https://touristdaughter.cyou/tags/AcWing/"/>
-    
     <category term="ACM" scheme="https://touristdaughter.cyou/tags/ACM/"/>
     
     <category term="OI" scheme="https://touristdaughter.cyou/tags/OI/"/>
@@ -202,6 +236,8 @@
     <category term="MONSOON" scheme="https://touristdaughter.cyou/tags/MONSOON/"/>
     
     <category term="JiangnanPsalter" scheme="https://touristdaughter.cyou/tags/JiangnanPsalter/"/>
+    
+    <category term="AcWing" scheme="https://touristdaughter.cyou/tags/AcWing/"/>
     
     <category term="CAFN" scheme="https://touristdaughter.cyou/tags/CAFN/"/>
     
@@ -297,11 +333,11 @@
     <category term="我的基础算法笔记" scheme="https://touristdaughter.cyou/categories/%E6%88%91%E7%9A%84%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/"/>
     
     
+    <category term="C++" scheme="https://touristdaughter.cyou/tags/C/"/>
+    
     <category term="AcWing" scheme="https://touristdaughter.cyou/tags/AcWing/"/>
     
     <category term="Algorithm" scheme="https://touristdaughter.cyou/tags/Algorithm/"/>
-    
-    <category term="C++" scheme="https://touristdaughter.cyou/tags/C/"/>
     
   </entry>
   
@@ -325,9 +361,9 @@
     <category term="我的基础算法笔记" scheme="https://touristdaughter.cyou/categories/%E6%88%91%E7%9A%84%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="C++" scheme="https://touristdaughter.cyou/tags/C/"/>
-    
     <category term="Sublime" scheme="https://touristdaughter.cyou/tags/Sublime/"/>
+    
+    <category term="C++" scheme="https://touristdaughter.cyou/tags/C/"/>
     
     <category term="IDE" scheme="https://touristdaughter.cyou/tags/IDE/"/>
     
@@ -493,28 +529,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;文章标题：理解与成长——与父母和解，走向优雅的自己&quot;&gt;&lt;a href=&quot;#文章标题：理解与成长——与父母和解，走向优雅的自己&quot; class=&quot;headerlink&quot; title=&quot;文章标题：理解与成长——与父母和解，走向优雅的自己&quot;&gt;&lt;/a&gt;文章标题：理解与成长—</summary>
-      
-    
-    
-    
-    <category term="博主的观点和态度" scheme="https://touristdaughter.cyou/categories/%E5%8D%9A%E4%B8%BB%E7%9A%84%E8%A7%82%E7%82%B9%E5%92%8C%E6%80%81%E5%BA%A6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>行业特征与个人形象：影响后代的无形遗产</title>
-    <link href="https://touristdaughter.cyou/2024/06/03/%E8%A1%8C%E4%B8%9A%E7%89%B9%E5%BE%81%E4%B8%8E%E4%B8%AA%E4%BA%BA%E5%BD%A2%E8%B1%A1%EF%BC%9A%E5%BD%B1%E5%93%8D%E5%90%8E%E4%BB%A3%E7%9A%84%E6%97%A0%E5%BD%A2%E9%81%97%E4%BA%A7/"/>
-    <id>https://touristdaughter.cyou/2024/06/03/%E8%A1%8C%E4%B8%9A%E7%89%B9%E5%BE%81%E4%B8%8E%E4%B8%AA%E4%BA%BA%E5%BD%A2%E8%B1%A1%EF%BC%9A%E5%BD%B1%E5%93%8D%E5%90%8E%E4%BB%A3%E7%9A%84%E6%97%A0%E5%BD%A2%E9%81%97%E4%BA%A7/</id>
-    <published>2024-06-03T14:39:51.505Z</published>
-    <updated>2024-06-03T14:51:09.792Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="行业特征与个人形象：影响后代的无形遗产"><a href="#行业特征与个人形象：影响后代的无形遗产" class="headerlink" title="行业特征与个人形象：影响后代的无形遗产"></a>行业特征与个人形象：影响后代的无形遗产</h1><p>在历史的长河中，我们不难发现，同一行业中的人们往往具有类似的特征，无论是生活习惯、思维模式、行为模式，还是长相。这种现象不仅在古代有所体现，在现代社会中也同样存在。例如，在互联网领域取得成就的人，往往拥有高颜值和高智感。这种特征的相似性，无疑影响了后人对该行业的认知和选择。</p><p>首先，我们生活的每一个细节都至关重要。我们需要认真挑选自己使用的物品，认真做好自己的事情，确保自己的行为、长相和穿搭符合我们理想目标的模式。例如，如果我们的目标是成为一名白领，那么我们就应该穿着职场化，并付出相应的努力。这种看似微不足道的行为，实际上在潜移默化中影响了我们的形象，也影响了后人的选择。</p><p>其次，我们的形象和成就不仅关乎自己，更关乎我们的后代。我们的行为和努力，会在无意中成为后代参考的模板。如果我们希望他们能够走向成功的道路，那么我们就必须以身作则，努力做到最好。正如古代典故中所言，“龙生龙，凤生凤”，我们的形象和成就，将会成为后代选择行业的无形遗产。为了后代，我们更要认真对待自己的事情，努力做到最好。这是因为，我们的后代会根据我们的成绩、形象和职业来判断自己的发展方向。例如，如果某位条件与我们极其相似的后辈发现我们是一位成功的企业家，他们可能会受到启发，立志成为优秀的企业家。这种刻板印象虽然有时会限制个体的多元化发展，但在很大程度上也起到了传承和激励的作用。</p><p>在我国古代，有许多典故都传达了这一观点。诸如“孟母三迁”的故事，孟母为了让儿子孟子成为一个有道德、有文化的人，不惜三次搬家，最终使孟子在良好的环境下成长为一个杰出的思想家。又如“岳飞背刺字”，岳母在岳飞背上刺下“精忠报国”的字样，激发了他为国家效忠奋斗的勇气和决心。这些典故都说明了我们的长辈为了后代的发展，会尽全力为他们创造一个良好的环境，树立榜样，使我们能够传承他们的优秀品质。</p><p>最后，我们应当忽略他人的评价，坚定地做好自己的事情。因为我们的每一个细节，都可能在无形中影响后代的决策。如果我们希望他们能够拥有更好的未来，那么我们就必须用自己的行动，为他们树立一个榜样。</p><p>总之，我们应当认识到，行业特征和个人形象之间的关联，以及这种关联对后代的影响。只有通过努力做好自己，才能为后代留下一个更好的未来。在这个过程中，我们不仅是在塑造自己的命运，更是在塑造后代的未来。因此，让我们怀着责任感和使命感，认真对待自己的事情，为后代创造一个更加美好的世界。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;行业特征与个人形象：影响后代的无形遗产&quot;&gt;&lt;a href=&quot;#行业特征与个人形象：影响后代的无形遗产&quot; class=&quot;headerlink&quot; title=&quot;行业特征与个人形象：影响后代的无形遗产&quot;&gt;&lt;/a&gt;行业特征与个人形象：影响后代的无形遗产&lt;/h1&gt;&lt;p&gt;在历</summary>
       
     
     
