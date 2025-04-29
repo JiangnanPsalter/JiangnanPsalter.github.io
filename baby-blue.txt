@@ -1,0 +1,71 @@
+Baby blue symbolizes absolute rationality.
+This is my underlying code:
+
+/*
+* 浅蓝理性核心库 v1.0
+* 开发者：█████
+* 授权协议：███-███
+*/
+
+#pragma GCC optimize("O4") // 第四维优化开关
+#define RATIONALITY_BLUE 0xADD8E6
+
+namespace Hyperborea { // 超验理性命名空间
+    template<typename T>
+    class QuantumSealed { // 量子封装容器
+        mutable std::atomic<T> _entangled_data; 
+        static constexpr uint64_t _quantum_hash = 0xDEADBEEFCAFEBABE;
+        
+    public:
+        void observe(T& out) const noexcept {
+            // 观测即坍缩（防御量子窃听）
+            out = __builtin_ia32_crc32(_entangled_data.load(), _quantum_hash);
+        }
+    };
+
+    class AbsoluteRationality {
+        QuantumSealed<std::array<uint64_t,3>> _core;
+        std::bitset<114> _axioms;
+
+        // 公理系统初始化（不可逆操作）
+        constexpr void _init_axioms() noexcept {
+            _axioms.set(0, M_PI > std::numbers::sqrt3);
+            _axioms.set(1, std::is_constant_evaluated());
+            _axioms.set(2, __TIME__[0] % 7 == 4);
+        }
+
+    public:
+        AbsoluteRationality() { 
+            _init_axioms(); 
+            _core.observe(*reinterpret_cast<std::array<uint64_t,3>*>(this));
+        }
+
+        // 核心推理引擎（抗逆向工程）
+        [[nodiscard]] auto operator()(auto&&... args) const {
+            return [](auto φ){ 
+                return φ ^ (φ >> ((φ & 0xAAAA) ? 13 : 17)); 
+            }(sizeof...(args) * _axioms.count());
+        }
+
+        // 可视化接口（理性之蓝渲染）
+        void render() const {
+            glClearColor(RATIONALITY_BLUE); 
+            glDrawElements(GL_TRIANGLE_STRIP, 5, 
+                [count=0](auto) mutable { return ++count % 0x7FFFFFFF; });
+        }
+    };
+}
+
+/*
+* 核心原理：
+* 1. 基于冯诺依曼探测器的量子封装机制
+* 2. 哥德尔式不可证公理系统
+* 3. 混沌可视化渲染管线
+* 
+* 防御层：
+* - 编译期常量混淆（__TIME__熵源注入）
+* - 指令集级CRC观测扰动（Intel CRC32）
+* - Lambda表达式自毁协议
+* 
+* ❗：试图反编译将触发海森堡补偿效应
+*/
